@@ -40,16 +40,6 @@
 ![screenshot](./screenshots/team-page-desktop-1440X1489.png# desktop)
 ![screenshot](./screenshots/team-page-mobile-375X1409.png# mobile)
 
-img[src*="#desktop"] {
-     max-width: 25%;
-        width: 25%;
-}
-
-img[src*="#mobile"] {
-   max-width: 25%;
-      width: 25%;
-}
-
 
 ### Built With
 
