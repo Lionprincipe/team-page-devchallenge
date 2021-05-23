@@ -38,12 +38,17 @@
 ## Overview
 
 <div align="center">
+<hr>
 <h3 align="center">Desktop</h3>
+<hr>
 <img src="./screenshots/team-page-desktop-1440X1489.png" width="70%" alt="desktop">
 </div>
 <div align="center">
+<hr>
 <h3 align="center">Mobile</h3>
+<hr>
    <img src="./screenshots/team-page-mobile-375X1409.png" width="25%" alt="mobile">
+   <hr>
 </div>
 
 ### Built With
