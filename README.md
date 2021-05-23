@@ -37,14 +37,14 @@
 
 ## Overview
 
-![screenshot](./screenshots/team-page-desktop-1440X1489.png#desktop)
+desktop view
 
-img[src*="#desktop"] {
-   width:150px;
-   height:100px;
-}
+<img src="./screenshots/team-page-desktop-1440X1489.png" width="25%" alt="desktop">
 
-![screenshot](./screenshots/team-page-mobile-375X1409.png)
+
+Mobile view
+<img src="./screenshots/team-page-mobile-375X1409.png" width="25%" alt="mobile">
+
 
 
 ### Built With
