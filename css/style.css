@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin-block: 0;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 1409px;
+}
+
+.headline,
+.subtitle,
+.description {
+  padding-left: 12px;
+}
+
+.main__container {
+  padding-top: 71px;
+}
+
+.headline {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+.subtitle {
+  margin-top: 38px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.description {
+  margin-top: 10px;
+  max-width: 333px;
+  min-height: 87px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.member__card:nth-child(2n + 1) {
+  margin-left: 20px;
+  margin-bottom: 65px;
+}
+
+.member__card:nth-child(2n + 2) {
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.fullname {
+  display: inline-block;
+  margin-top: 10px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.job-name {
+  position: absolute;
+  top: 0;
+
+  display: block;
+
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 13px;
+  text-transform: uppercase;
+
+  color: #000000;
+  transform: translateX(155px) rotate(90deg);
+  transform-origin: top left;
+}
+
+.fullname {
+  max-width: 141px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #000000;
+}
+
+.members-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 38px;
+  /* border: 1px solid red; */
+  justify-content: space-between;
+  /* max-width: 335px; */
+}
+
+.member__card {
+  max-width: 175px;
+  padding-right: 15px;
+  position: relative;
+}
+
+.member__card img {
+  display: block;
+  max-width: 140px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 24px;
+}
+
+footer p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #a9a9a9;
+}
+
+footer p span {
+  font-weight: 700;
+}
