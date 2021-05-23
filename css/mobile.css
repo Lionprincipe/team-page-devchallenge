@@ -14,11 +14,13 @@ body {
   position: relative;
   width: 100%;
   height: 1409px;
-  padding-bottom: 175px;
   font-family: Poppins;
   font-style: normal;
 }
-.main__container header {
+
+.headline,
+.subtitle,
+.description {
   padding-left: 12px;
 }
 
@@ -27,7 +29,6 @@ body {
 }
 
 .headline {
-  margin-bottom: 38px;
   font-family: PT Serif;
   font-weight: bold;
   font-size: 36px;
@@ -37,6 +38,7 @@ body {
 }
 
 .subtitle {
+  margin-top: 38px;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
@@ -70,6 +72,17 @@ body {
 .member__card img {
   display: block;
   max-width: 140px;
+}
+
+.member__card:nth-child(2n + 1) {
+  margin-left: 20px;
+  margin-bottom: 65px;
+}
+
+.member__card:nth-child(2n + 2) {
+  margin-right: 20px;
+  margin-top: 50px;
+  margin-bottom: 15px;
 }
 
 .job-name {
@@ -117,83 +130,4 @@ footer p {
 
 footer p span {
   font-weight: 700;
-}
-
-@media only screen and (max-width: 1439px) {
-  .member__card:nth-child(2n + 1) {
-    margin-left: 20px;
-    margin-bottom: 65px;
-  }
-
-  .member__card:nth-child(2n + 2) {
-    margin-right: 20px;
-    margin-top: 50px;
-    margin-bottom: 15px;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  body {
-    padding-bottom: 156px;
-    height: auto;
-  }
-  .main__container {
-    max-width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 110px;
-  }
-
-  .main__container header {
-    padding-left: 0;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .main__container header div,
-  .main__container header h1 {
-    flex-grow: 1;
-    min-width: 50%;
-  }
-
-  .main__container .description,
-  .fullname {
-    font-size: 18px;
-    line-height: 27px;
-  }
-
-  .description {
-    max-width: 440px;
-  }
-
-  .members-list {
-    padding-top: 96px;
-    padding-right: 35px;
-  }
-  .member__card {
-    max-width: 266px;
-    padding-right: 25px;
-  }
-
-  .member__card img {
-    max-width: 240px;
-  }
-
-  .job-name {
-    font-size: 12px;
-    line-height: 16px;
-    transform: translateX(266px) rotate(90deg);
-  }
-
-  .fullname {
-    margin-top: 15px;
-  }
-
-  .member__card:nth-child(3n + 2) {
-    margin-top: 100px;
-    margin-bottom: 24px;
-  }
-  .member__card:nth-last-child(2) {
-    margin-bottom: 0px;
-  }
 }
