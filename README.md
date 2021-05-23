@@ -37,15 +37,17 @@
 
 ## Overview
 
-desktop view
 
-<img src="./screenshots/team-page-desktop-1440X1489.png" width="50%" alt="desktop">
-
-
-Mobile view
-<img src="./screenshots/team-page-mobile-375X1409.png" width="25%" alt="mobile">
-
-
+<div style="display:flex;">
+  <div>
+  desktop view
+    <img src="./screenshots/team-page-desktop-1440X1489.png" width="50%" alt="desktop">
+  </div>
+  <div>
+    Mobile view
+    <img src="./screenshots/team-page-mobile-375X1409.png" width="25%" alt="mobile">
+  </div>
+</div>
 
 ### Built With
 
