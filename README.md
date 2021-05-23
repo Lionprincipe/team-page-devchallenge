@@ -37,7 +37,12 @@
 
 ## Overview
 
-![screenshot](./screenshots/team-page-desktop-1440X1489.png)
+![screenshot](./screenshots/team-page-desktop-1440X1489.png#desktop)
+
+img[src*="#desktop"] {
+   width:150px;
+   height:100px;
+}
 
 ![screenshot](./screenshots/team-page-mobile-375X1409.png)
 
