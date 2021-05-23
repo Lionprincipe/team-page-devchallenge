@@ -37,8 +37,18 @@
 
 ## Overview
 
-![screenshot](./screenshots/team-page-desktop-1440X1489.png){max-width:25%}
-![screenshot](./screenshots/team-page-mobile-375X1409.png){max-width:25%}
+![screenshot](./screenshots/team-page-desktop-1440X1489.png #desktop){max-width:25%;}
+![screenshot](./screenshots/team-page-mobile-375X1409.png #mobile){max-width:25%;}
+
+img[src*="#desktop"] {
+     max-width: 25%;
+        width: 25%;
+}
+
+img[src*="#mobile"] {
+   max-width: 25%;
+      width: 25%;
+}
 
 
 ### Built With
