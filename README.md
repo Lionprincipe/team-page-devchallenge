@@ -37,8 +37,9 @@
 
 ## Overview
 
-![screenshot](./screenshots/team-page-desktop-1440X1489.png# desktop)
-![screenshot](./screenshots/team-page-mobile-375X1409.png# mobile)
+![screenshot](./screenshots/team-page-desktop-1440X1489.png)
+
+![screenshot](./screenshots/team-page-mobile-375X1409.png)
 
 
 ### Built With
