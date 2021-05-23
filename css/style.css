@@ -13,17 +13,18 @@ ul {
 body {
   position: relative;
   width: 100%;
-  height: 1409px;
+  min-height: 1409px;
   padding-bottom: 175px;
   font-family: Poppins;
   font-style: normal;
 }
-.main__container header {
-  padding-left: 12px;
-}
 
 .main__container {
   padding-top: 71px;
+}
+
+.main__container header {
+  padding-left: 12px;
 }
 
 .headline {
@@ -119,7 +120,14 @@ footer p span {
   font-weight: 700;
 }
 
-@media only screen and (max-width: 1439px) {
+@media only screen and (max-width: 488px) {
+  footer,
+  .main__container {
+    max-width: 375px;
+    min-width: 375px;
+    margin: 0 auto;
+  }
+
   .member__card:nth-child(2n + 1) {
     margin-left: 20px;
     margin-bottom: 65px;
@@ -132,11 +140,117 @@ footer p span {
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 488px) and (max-width: 755px) {
+  footer,
+  .main__container {
+    max-width: 488px;
+    min-width: 488px;
+    margin: 0 auto;
+  }
+
+  .job-name {
+    transform: translateX(calc(155px * 1.25)) rotate(90deg);
+  }
+
+  .main__container header {
+    padding-left: 18px;
+  }
+
+  .member__card {
+    max-width: calc(175px * 1.25);
+    padding-right: 22.5px;
+    position: relative;
+  }
+
+  .member__card img {
+    display: block;
+    max-width: calc(140px * 1.25);
+  }
+
+  .member__card:nth-child(2n + 1) {
+    margin-left: calc(20px * 1.25);
+  }
+
+  .member__card:nth-child(2n + 2) {
+    margin-right: calc(20px * 1.25);
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (min-width: 756px) {
+  body {
+    padding-bottom: calc(156px * 0.7);
+    min-height: 1042px;
+  }
+
+  .main__container {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: calc(110px * 0.7);
+  }
+
+  .main__container header {
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main__container header div,
+  .main__container header h1 {
+    flex-grow: 1;
+    min-width: 50%;
+  }
+
+  .main__container .description,
+  .fullname {
+    font-size: calc(18px * 0.7);
+    line-height: calc(27px * 0.7);
+  }
+
+  .description {
+    max-width: calc(440px * 0.7);
+  }
+
+  .members-list {
+    padding-top: calc(96px * 0.7);
+    padding-right: calc(35px * 0.7);
+  }
+  .member__card {
+    max-width: calc(266px * 0.7);
+    padding-right: calc(25px * 0.7);
+  }
+
+  .member__card img {
+    max-width: calc(240px * 0.7);
+  }
+
+  .job-name {
+    font-size: calc(12px * 0.7);
+    line-height: calc(16px * 0.7);
+    transform: translateX(calc(266px * 0.7)) rotate(90deg);
+  }
+
+  .fullname {
+    margin-top: calc(15px * 0.7);
+  }
+
+  .member__card:nth-child(3n + 2) {
+    margin-top: calc(100px * 0.7);
+    margin-bottom: calc(24px * 0.7);
+  }
+  .member__card:nth-last-child(2) {
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (min-width: 980px) {
   body {
     padding-bottom: 156px;
     height: auto;
   }
+
   .main__container {
     max-width: 960px;
     margin-left: auto;
