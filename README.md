@@ -41,7 +41,7 @@
 <hr>
 <h3 align="center">Desktop</h3>
 <hr>
-<img src="./screenshots/team-page-desktop-1440X1489.png" width="70%" alt="desktop">
+<img src="./screenshots/team-page-desktop-1440X1489.png" width="100%" alt="desktop">
 </div>
 <div align="center">
 <hr>
