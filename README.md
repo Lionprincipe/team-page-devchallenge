@@ -39,7 +39,7 @@
 
 desktop view
 
-<img src="./screenshots/team-page-desktop-1440X1489.png" width="25%" alt="desktop">
+<img src="./screenshots/team-page-desktop-1440X1489.png" width="50%" alt="desktop">
 
 
 Mobile view
