@@ -37,8 +37,14 @@
 
 ## Overview
 
-   <img src="./screenshots/team-page-desktop-1440X1489.png" width="70%" alt="desktop"><img src="./screenshots/team-page-mobile-375X1409.png" width="25%" alt="mobile">
-
+<div>
+<h3 align="center">Desktop</h3>
+<img src="./screenshots/team-page-desktop-1440X1489.png" width="70%" alt="desktop">
+</div>
+<div>
+<h3 align="center">Mobile</h3>
+   <img src="./screenshots/team-page-mobile-375X1409.png" width="25%" alt="mobile">
+</div>
 
 ### Built With
 
