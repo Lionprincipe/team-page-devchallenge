@@ -38,7 +38,7 @@
 ## Overview
 
 ![screenshot](./screenshots/team-page-desktop-1440X1489.png){width:50%}
-![screenshot](./screenshots/team-page-mobile-375X1409.png){width:50%}
+![screenshot](./screenshots/team-page-mobile-375X1409.png){width:25%}
 
 
 ### Built With
